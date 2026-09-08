@@ -1,300 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-	<meta charset="UTF-8">
-	<title>Tahmim CV</title>
-	<link rel="stylesheet" href="css/styles.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahmim Al-Ashik | Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .text-gradient { background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
 </head>
-<body>
-	<div class="wrapper">
-		<div class="resume">
-			<div class="left">
-				<div class="img_holder">
-					<img src="img/pic.jpg" alt="image">
-				</div>
-				<div class="contact_wrap pb">
-					<div class="title">
-						Contact
-					</div>
-					<div class="contact">
-						<ul>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
-									<a href="tel:+8801521109057"><div class="text">01521109057</div></a>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
-									<a href="mailto:tahmim0006@gmal.com.com"><div class="text">tahmim0006@gmail.com</div></a>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
-									<a href="https://www.linkedin.com/in/tahmim-al-ashik-a31a841b1/"> <div class="text">tahmim al ashik</div> </a>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-facebook" aria-hidden="true"></i></div>
-									<a href="https://www.facebook.com/tahmimal.ashik.37/"> <div class="text">tahmim al ashik</div> </a>
-								</div>
-							</li>
+<body class="antialiased selection:bg-sky-500 selection:text-white">
 
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-map-signs" aria-hidden="true"></i></div>
-									<div class="text">House#374 , South Anandanagar , Merul Badda, Dhaka-1212</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="skills_wrap pb">
-					<div class="title">
-						Skills
-					</div>
-					<div class="skills">
-						<ul>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-html5"></i></div>
-									<div class="text">HTML</div>
-									<div class="container">
-										<div class="skill html">90%</div>
-									</div>
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass top-0 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider text-gradient">TAHMIM</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-sky-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-sky-400 transition-colors">Skills</a>
+                <a href="#experience" class="hover:text-sky-400 transition-colors">Experience</a>
+                <a href="#projects" class="hover:text-sky-400 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-sky-400 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-css3-alt"></i></div>
-									<div class="text">CSS</div>
-									<div class="container">
-										<div class="skill CSS">90%</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-js"></i></div>
-									<div class="text">Javascript</div>
-									<div class="container">
-										<div class="skill js">80%</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-laravel"></i></div>
-									<div class="text">Php Laravel</div>
-									<div class="container">
-										<div class="skill laravel">70%</div>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="hobbies_wrap pb">
-					<div class="title">
-						hobbies
-					</div>
-					<div class="hobbies">
-						<ul>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-book"></i></div>
-									<div class="text">Reading</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-music"></i></div>
-									<div class="text">Music</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-gamepad"></i></div>
-									<div class="text">Gaming</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-tree"></i></div>
-									<div class="text">Gardening</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="right">
-				<div class="header">
-					<div class="name_role">
-						<div class="name">
-							Tahmim Al Ashik
-						</div>
-						<div class="role">
-							Web Design & Development <br>
-							SEO & Digital Marketing
-						</div>
-					</div>
-					<div class="about">
-						Searching for a challenging role in an organization to utilize my
-						knowledge, learnings and skills for the growth of the organization as
-						well as to enhance my knowledge about new and emerging trends in
-						the IT sector.
-					</div>
-				</div>
-				<div class="right_inner">
+    <!-- Hero Section -->
+    <header class="min-h-screen flex items-center justify-center pt-20 px-4">
+        <div class="max-w-4xl text-center space-y-6">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight">
+                Hi, I'm <span class="text-gradient">Tahmim Al-Ashik</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-400 font-medium">
+                Sr. Software Engineer | AI Solutions Architect | Product Manager
+            </p>
+            <p class="max-w-2xl mx-auto text-slate-300 text-lg leading-relaxed">
+                Specializing in Front-end & Back-end Web Development, REST APIs, and AI-driven ERP solutions. I build scalable architectures and intelligent networking integrations.
+            </p>
+            <div class="flex justify-center gap-4 pt-4">
+                <a href="#contact" class="px-8 py-3 bg-sky-500 hover:bg-sky-600 text-white rounded-full font-semibold transition-all">Get in Touch</a>
+                <a href="https://github.com/tahmim-al-ashik" target="_blank" class="px-8 py-3 glass hover:bg-slate-800 rounded-full font-semibold transition-all"><i class="fab fa-github mr-2"></i>GitHub</a>
+            </div>
+        </div>
+    </header>
 
-					<div class="education">
-						<div class="title">
-							Education
-						</div>
-						<div class="education_wrap">
-							<ul>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											2017-2020
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Bachelor Degree
-											</p>
-											<p class="info_ins">
-												Stamford University Bangladesh
-											</p>
-											<p class="info_com">
-												Subject : BSc. in CSE
-											</p>
-											<p class="info_cont">
-												CGPA : 3.40
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											2015 - 2016
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Higher Secondary School Certificate
-											</p>
-											<p class="info_ins">
-												Bangladesh Navy College Dhaka
-											</p>
-											<p class="info_com">
-												Group : Science
-											</p>
-											<p class="info_cont">
-												GPA : 4.58
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											2005 - 2014
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Secondary School Certificate
-											</p>
-											<p class="info_ins">
-												Siraj Mia Memorial Model School
-											</p>
-											<p class="info_com">
-												Group : Science
-											</p>
-											<p class="info_cont">
-												CGPA : 5.00
-											</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10 text-center text-gradient">Technical Arsenal</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Frontend -->
+                <div class="glass p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-4 text-sky-400"><i class="fas fa-desktop mr-2"></i>Frontend</h3>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>React, Next.js, Vue.js</li>
+                        <li>Angular, TypeScript</li>
+                        <li>Tailwind CSS, Bootstrap</li>
+                        <li>Figma Design integration</li>
+                    </ul>
+                </div>
+                <!-- Backend -->
+                <div class="glass p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-4 text-sky-400"><i class="fas fa-server mr-2"></i>Backend</h3>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>PHP Laravel, Blade</li>
+                        <li>Node.js REST APIs</li>
+                        <li>MySQL, MongoDB, SQLite</li>
+                        <li>Nginx, AWS, Server Mgmt</li>
+                    </ul>
+                </div>
+                <!-- AI & Networking -->
+                <div class="glass p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-4 text-sky-400"><i class="fas fa-microchip mr-2"></i>AI & Automation</h3>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>ChatGPT, Gemini, Claude API</li>
+                        <li>n8n Workflow Automation</li>
+                        <li>MikroTik Router Config</li>
+                        <li>Cisco Basics</li>
+                    </ul>
+                </div>
+                <!-- Digital Strategy -->
+                <div class="glass p-6 rounded-2xl">
+                    <h3 class="text-xl font-bold mb-4 text-sky-400"><i class="fas fa-bullseye mr-2"></i>Digital Strategy</h3>
+                    <ul class="space-y-2 text-slate-300">
+                        <li>Agile SDLC & SQA</li>
+                        <li>Technical & On-Page SEO</li>
+                        <li>Video Content & Monetization</li>
+                        <li>Software Market Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-4 bg-slate-900/50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10 text-center text-gradient">Work Experience</h2>
+            <div class="space-y-8 border-l-2 border-sky-500 pl-6 ml-4">
+                
+                <div class="relative">
+                    <span class="absolute -left-10 bg-sky-500 h-6 w-6 rounded-full border-4 border-slate-900"></span>
+                    <h3 class="text-2xl font-bold text-white">Sr. Software Engineer</h3>
+                    <p class="text-sky-400 font-medium mb-2">Plexus Cloud | May 2025 – Present</p>
+                    <p class="text-slate-300">Leading back-end architecture and full-stack development. Spearheading on-page/off-page SEO strategies, social media marketing, and guiding development lifecycles.</p>
+                </div>
 
-					<div class="exp">
-						<div class="title">
-							experience
-						</div>
-						<div class="exp_wrap">
-							<ul>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											2018 - Present
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Web Design and Development
-											</p>
-											<p class="info_com">
-												Institution : Freelancing
-											</p>
-											<p class="info_cont">
-												Description : Design and Develop of web site using HTML, CSS, Java Script, Jquery Plugins, PHP, Laravel, MySql
+                <div class="relative">
+                    <span class="absolute -left-10 bg-sky-500 h-6 w-6 rounded-full border-4 border-slate-900"></span>
+                    <h3 class="text-2xl font-bold text-white">Full Stack Web Developer</h3>
+                    <p class="text-sky-400 font-medium mb-2">JsKraft | May 2024 – Apr 2025</p>
+                    <p class="text-slate-300">Designed and implemented robust back-end architectures utilizing PHP, Laravel, and Vue.js. Managed project requirements and collaborative team workflows.</p>
+                </div>
 
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											2019-present
-										</div>
-										<div class="info">
-											<p class="info_title">
-												SEO & Social Media Market Planning
-											</p>
-											<p class="info_com">
-												Institution : Freelancing
-											</p>
-											<p class="info_cont">
-												Description : Search Engine Optimization, Keyword research, Content writing, On Page and Off page SEO planning, Social Media Marketing Planning and content making
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											5/2019 - 2/2020
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Content Planning, making and Editing
-											</p>
-											<p class="info_com">
-												Institution : Shera News
-											</p>
-											<p class="info_cont">
-												Description : Plan about their website marketing and edit their website content
-											</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
+                <div class="relative">
+                    <span class="absolute -left-10 bg-sky-500 h-6 w-6 rounded-full border-4 border-slate-900"></span>
+                    <h3 class="text-2xl font-bold text-white">Software Product Manager</h3>
+                    <p class="text-sky-400 font-medium mb-2">Squad Innovators | Jul 2022 – May 2024</p>
+                    <p class="text-slate-300">Directed software market risk analysis, finalized development cycles, and bridged technical execution with business strategy.</p>
+                </div>
 
-				</div>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10 text-center text-gradient">Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Project 1 -->
+                <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">Advance ERP Express</h3>
+                    <p class="text-sky-400 text-sm mb-4">AI Networking Assistant</p>
+                    <p class="text-slate-300 text-sm mb-4">Integrated ChatGPT API and n8n to automate MikroTik router readings and deliver dynamic networking services directly within the ERP ecosystem.</p>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">Multitenant Service ERP</h3>
+                    <p class="text-sky-400 text-sm mb-4">SaaS Architecture</p>
+                    <p class="text-slate-300 text-sm mb-4">Developed a scalable multitenant ERP architecture ensuring data isolation, custom modular services, and high availability for diverse business clients.</p>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">Shadhin ERP</h3>
+                    <p class="text-sky-400 text-sm mb-4">AI Agent Implementation</p>
+                    <p class="text-slate-300 text-sm mb-4">Developed and trained a specialized AI agent to handle automated tasks. Planned and executed complete backend requirement analysis.</p>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">Government ICT Portal</h3>
+                    <p class="text-sky-400 text-sm mb-4">edcuser.com</p>
+                    <p class="text-slate-300 text-sm mb-4">Built backend infrastructure using Laravel and modern interactive frontend dashboards using React for a Bangladesh Government Ministry of ICT initiative.</p>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">Digital Strategy & Content</h3>
+                    <p class="text-sky-400 text-sm mb-4">Tax & Monetization Series</p>
+                    <p class="text-slate-300 text-sm mb-4">Produced a multi-part educational video series focused on self-employment tax strategies, business deductions, and explored social media monetization workflows on platforms like TikTok.</p>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="glass p-6 rounded-2xl hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-white mb-2">International Web Apps</h3>
+                    <p class="text-sky-400 text-sm mb-4">Various Clients</p>
+                    <p class="text-slate-300 text-sm mb-4">Delivered scalable web solutions including hakeem.com.sa (Vue/Laravel), matchpointstudio.com, daters.in, and leeds.edu.au.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-slate-900/50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-10 text-gradient">Let's Connect</h2>
+            <div class="glass p-8 rounded-3xl inline-block text-left w-full md:w-auto">
+                <div class="flex flex-col space-y-4">
+                    <a href="mailto:tahmim0006@gmail.com" class="text-slate-300 hover:text-sky-400 flex items-center text-lg">
+                        <i class="fas fa-envelope w-8"></i> tahmim0006@gmail.com
+                    </a>
+                    <a href="tel:+8801521109057" class="text-slate-300 hover:text-sky-400 flex items-center text-lg">
+                        <i class="fas fa-phone w-8"></i> +8801521109057
+                    </a>
+                    <a href="https://www.linkedin.com/in/tahmim-al-ashik-a31a841b1/" target="_blank" class="text-slate-300 hover:text-sky-400 flex items-center text-lg">
+                        <i class="fab fa-linkedin w-8"></i> LinkedIn Profile
+                    </a>
+                    <span class="text-slate-300 flex items-center text-lg">
+                        <i class="fas fa-map-marker-alt w-8"></i> South Banasree, Dhaka-1219, Bangladesh
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-6 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 Tahmim Al-Ashik. Built with HTML, Tailwind CSS & JavaScript.</p>
+    </footer>
+
 </body>
 </html>
